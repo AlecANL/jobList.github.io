@@ -71,6 +71,7 @@ body {
   box-shadow: 0 0.6rem 0.6rem rgba(0, 0, 0, 0.11);
   border-radius: 0.5rem;
   position: relative;
+  margin-top: 1rem;
   @include from(l) {
     display: flex;
     justify-content: space-between;

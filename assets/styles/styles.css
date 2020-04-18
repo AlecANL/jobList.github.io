@@ -51,7 +51,8 @@ body {
   width: 100%;
   box-shadow: 0 0.6rem 0.6rem rgba(0, 0, 0, 0.11);
   border-radius: 0.5rem;
-  position: relative; }
+  position: relative;
+  margin-top: 1rem; }
   @media screen and (min-width: 960px) {
     .card {
       display: flex;
