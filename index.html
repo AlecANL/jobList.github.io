@@ -3,25 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>Job List</title>
   </head>
   <body>
-    <header class="main-header"></header>
+    <header class="main-header">
+      <img
+        src="./assets/images/bg-header-desktop.svg"
+        alt="image header"
+        class="main-header__image"
+      />
+    </header>
     <!-- this section contain all data  -->
     <section class="l-section">
       <div class="card">
         <div class="card__first--section">
-          <div class="card__image"></div>
+          <div class="card__image">
+            <img
+              src="./assets/images/photosnap.svg"
+              alt="image as logo of Photosnap"
+              class="photosnap"
+            />
+          </div>
           <div class="card__data">
-            <div class="data-requirements"></div>
-            <p class="job-title"></p>
-            <div class="data-beneficent"></div>
+            <div class="data-requirements">
+              <a href="#" class="p-green">Photosnap</a>
+              <a href="#" class="color-green">New!</a>
+              <a href="#" class="color-black">FEATURED</a>
+            </div>
+            <p class="job-title">Senior Frontend Developer</p>
+            <div class="data-beneficent">
+              <a href="#" class="data-beneficent--p">1d ago</a>
+              <a href="#" class="data-beneficent--p">Full Time</a>
+              <a href="#" class="data-beneficent--p">USA only</a>
+            </div>
           </div>
         </div>
         <div class="card__second--section">
           <ul class="list-technologies">
-            <li class="item"><a href="#" class="item-link">Frontend</a></li>
+            <li class="item l"><a href="#" class="item-link">Frontend</a></li>
             <li class="item"><a href="#" class="item-link">Senior</a></li>
             <li class="item"><a href="#" class="item-link">HTML</a></li>
             <li class="item"><a href="#" class="item-link">CSS</a></li>
